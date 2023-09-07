@@ -1,0 +1,504 @@
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+body{
+   
+    position: relative;
+    height: 100vh;
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+
+.Lineage {
+    position: relative;
+    height: 250vh;
+}
+
+
+.Contact-us {
+    padding-top: 8px;
+    color: white;
+    text-align: center;
+}
+
+.Contact-footer {
+    text-align: center;
+}
+
+.nav-footer {
+    text-align: right;
+}
+
+.site-header {
+    z-index: 100;
+	transition: all .3s ease;
+	box-shadow: 0 1px 25px rgba(0,0,0, .1);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+
+}
+.site-header.hide {
+	top: -53px;
+}
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Caption text */
+  .text {
+
+    position: fixed;
+    font: bolder;
+    color: #f2f2f2;
+    position: absolute;
+    padding-bottom: 250px;
+    color: white;
+    font-size: 100px; 
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+    animation: fadeIn 1s;
+-webkit-animation: fadeIn 1s;
+-moz-animation: fadeIn 1s;
+-o-animation: fadeIn 1s;
+-ms-animation: fadeIn 1s;
+transition: 0.7s ease;
+
+  }
+
+  .text:hover {
+    color: dodgerblue
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    height: 15px;
+    width: 15px;
+    margin: 10px 4px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  .mySlides {display: none;}
+
+  .slideshow {
+    box-shadow: 0px 0px 40px #000000;
+    position: relative;
+    vertical-align: middle  
+  }
+
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+
+  @media only screen and (max-width: 768px) {
+    .text {
+        color: white;
+        position: absolute;
+        font-size: 50px;
+        padding-bottom: 60px;
+    }
+.botm-quote {
+    font-size: calc(15px + 0.390625vw);
+    
+}
+.charters {
+    font-size: 15px;
+}
+.Center-heading {
+    font-size: 10px;
+}
+
+  }
+
+
+
+
+li {
+    list-style: none;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.test {
+    font-size: x-large;
+    color: royalblue;
+}
+
+.navbar {
+
+min-height: 70px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0 24px;
+
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+.nav-branding {
+    font-size: 2rem;
+}
+
+.nav-link {
+    transition: 0.7s ease;
+}
+
+.nav-link:hover {
+    color: dodgerblue
+}
+
+
+.hamburger {
+   
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: black;
+
+}
+
+.flyer {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.background {
+    box-shadow: 0px 0px 40px #000000;
+    background-position-x: center;
+    background-image: url("/images/Active\ House\ \'23.jpg");
+    padding-top: 300px;
+    padding-bottom: 450px;
+    background-repeat: repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-attachment: scroll;
+    align-items:center;
+    justify-content:center;
+
+}
+.brothersbackground {
+    background-position-x: center;
+    background-image: url("images/Brothers.jpg");
+    padding-top: 300px;
+    padding-bottom: 450px;
+    background-repeat: repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-attachment: scroll;
+}
+
+.video {
+    padding-top: 100px;
+}
+
+.info {
+
+    color: royalblue;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.Center-heading {
+
+    transition: 0.7s ease;
+    padding-bottom: 10px;
+    color: white;
+    text-align: center;
+    font-size: 100px; 
+    animation: fadeIn 1s;
+    -webkit-animation: fadeIn 1s;
+    -moz-animation: fadeIn 1s;
+    -o-animation: fadeIn 1s;
+    -ms-animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+.Center-heading:hover {
+    color: dodgerblue
+}
+.subCenter-heading {
+
+    color: white;
+    text-align: center;
+
+
+}
+
+.mainpage-heading {
+    font-size: 50px;
+    padding-top: 50px;
+    color: black;
+    text-align: center;
+}
+.mainpage-heading2 {
+
+    font-size: 50px;
+    padding-top: 50px;
+    color: white;
+    text-align: center;
+}
+.mainpage-subheading {
+    text-align: center;
+
+}
+
+.mainpage-subheading2 {
+
+    padding-bottom: 10px;
+    color: white;
+    text-align: center;
+
+}
+.botm-quote {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: gray;
+    line-height: 33px;
+}
+
+.charters {
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 20px;
+    color: gray;
+    line-height: 33px;
+}
+.charters2 {
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 20px;
+    color: gray;
+    line-height: 33px;
+}
+.charters3 {
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: right;
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 20px;
+    color: gray;
+    line-height: 33px;
+}
+
+
+footer {
+    
+    bottom: 0;
+    color: white;
+    background-color: #262626;
+    height: 10em;
+    left: 0;
+    position: relative; 
+    font-size: small;
+    width:100%;
+    opacity: 0.6;
+
+}
+
+
+.img {
+    width: 25px;
+    float: left;
+    
+}
+
+.mainpage-background {
+    box-shadow: 0px 0px 40px #000000;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 100px;
+    z-index: -20;
+    background-color: whitesmoke;
+}
+
+.mainpage-background2 {
+    
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 150px;
+    background-color: white;
+
+}
+.mainpage-background3 {
+    padding-bottom: 150px;
+    background-color: #262626;
+}
+
+.main-background2 {
+
+    position: relative;
+    padding-top: 150px;
+    padding-bottom: 220px;
+    background-position-y: center;
+    background-repeat: repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-attachment: scroll;
+    background-image: url(images/Travel.jpg);
+    background-color: whitesmoke
+}
+
+.slideshow-container {
+
+    padding-top: 150px;
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+
+
+
+.Brothers {
+
+    padding-top: 50px;
+    padding-bottom: 30px;
+    text-align: center;
+
+
+
+}
+
+.gap {
+    padding-bottom: 20px;
+}
+
+.gap2 {
+    padding-bottom: 10px;
+}
+
+
+
+@media (max-width: 1600px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media(max-width:1024px) {
+  
+    .hamburger {
+       display: block;
+    }
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    } 
+
+    .nav-menu {
+        position:fixed;
+        left: -100%;
+        top:70px;
+        gap: 0;
+        flex-direction: column;
+        background-color: white;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+    }
+
+    .nav-item {
+        margin: 16px 0;
+    }
+
+   .nav-menu.is-active {
+        left: 0;
+    }
+    
+
+}
