@@ -1,0 +1,566 @@
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+body{
+   
+    position: relative;
+    height: 100vh;
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+
+.Lineage {
+    position: relative;
+    height: 250vh;
+}
+
+
+.Contact-us {
+    color: white;
+    padding-top: 8px;
+    text-align: center;
+}
+
+.Contact-footer {
+    text-align: center;
+}
+
+.nav-footer {
+    text-align: right;
+}
+
+.container {
+    z-index: 100;
+	transition: all .3s ease;
+	box-shadow: 0 1px 25px rgba(0,0,0, .1);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+}
+.container.hide {
+	top: -53px;
+}
+
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    box-shadow: 0px 0px 40px #000000;
+
+  }
+
+  /* Hide the images by default */
+.mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev,.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  .prev {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  
+  /* Caption text */
+  .text {
+    
+    padding-right: 10px;
+    padding-left: 10px;
+    position: absolute;
+    padding-bottom: 200px;
+    color: white;
+    font-size: 40px; 
+    bottom: 8px;
+    max-height: 70%;
+    width: 100%;
+    text-align: center;
+    animation: fadeIn 1s;
+-webkit-animation: fadeIn 1s;
+-moz-animation: fadeIn 1s;
+-o-animation: fadeIn 1s;
+-ms-animation: fadeIn 1s;
+transition: 0.7s ease;
+
+  }
+
+  /* Number text (1/3 etc) */
+    .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  .text:hover {
+    color: dodgerblue
+
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  
+  .active {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  .mySlides {display: none;}
+
+  .slideshow {
+
+    position: relative;
+    vertical-align: middle  
+  }
+
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+
+
+
+@media only screen and (max-width: 1024px) {
+
+    .flyer {
+        width: 70%;
+    }
+    .source {
+        width: 50%;
+    }
+
+   .Center-heading {
+    font-size: 15px;
+   }
+   .text {
+    color: white;
+    position: absolute;
+    font-size: 15px;
+    padding-bottom: 60px;
+}
+  }
+
+
+li {
+    list-style: none;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.test {
+    font-size: x-large;
+    color: royalblue;
+}
+
+.navbar {
+
+min-height: 70px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0 24px;
+
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+.nav-branding {
+    font-size: 2rem;
+}
+
+.nav-link {
+    transition: 0.7s ease;
+}
+
+.nav-link:hover {
+    color: dodgerblue
+
+}
+
+
+.hamburger {
+   
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: black;
+
+}
+
+.flyer {
+    box-shadow: 0px 0px 40px #000000;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.background {
+    
+    
+    background-position-x: center;
+    background-image: url("../images/Active\ House\ \'23.jpg");
+    padding-top: 300px;
+    padding-bottom: 450px;
+    background-repeat: repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-attachment: scroll;
+
+}
+
+.rushbackground {
+    
+    background-position-x: center;
+    background-image: url("../images/Rush\ Background.jpg");
+    padding-top: 400px;
+    padding-bottom: 400px;
+    background-repeat: repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-attachment: scroll;
+}
+
+.brothersbackground {
+    background-position-x: center;
+    background-image: url("../images/Brothers.jpg");
+    padding-top: 300px;
+    padding-bottom: 450px;
+    background-repeat: repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-attachment: scroll;
+}
+
+
+.video {
+    padding-top: 100px;
+}
+
+.info {
+
+    color: royalblue;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.Center-heading {
+
+    transition: 0.7s ease;
+    padding-bottom: 10px;
+    color: white;
+    text-align: center;
+    font-size: 90px; 
+    animation: fadeIn 1s;
+    -webkit-animation: fadeIn 1s;
+    -moz-animation: fadeIn 1s;
+    -o-animation: fadeIn 1s;
+    -ms-animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+.Center-heading:hover {
+    color: dodgerblue
+}
+.subCenter-heading {
+
+    color: white;
+    text-align: center;
+
+
+}
+
+.mainpage-heading {
+
+    font-size: 50px;
+    padding-top: 50px;
+    color: black;
+    text-align: center;
+}
+.mainpage-heading2 {
+    background-color: #262626;
+    font-size: 50px;
+    padding-top: 50px;
+    color: white;
+    text-align: center;
+
+}
+.mainpage-heading3 {
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 30px;
+    padding-top: 50px;
+    color: black;
+    text-align: left;
+
+}
+.mainpage-subheading {
+
+    text-align: center;
+
+}
+
+.mainpage-subheading2 {
+
+    padding-bottom: 10px;
+    color: white;
+    text-align: center;
+
+}
+.botm-quote {
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: gray;
+    line-height: 33px;
+}
+
+footer {
+    
+    bottom: 0;
+    color: white;
+    background-color: #262626;
+    height: 10em;
+    left: 0;
+    position: relative; 
+    font-size: small;
+    width:100%;
+    opacity: 0.6;
+
+}
+
+
+.img {
+    width: 25px;
+    float: left;
+    
+}
+
+.mainpage-background {
+    padding: 30px;
+    z-index: -20;
+    padding-bottom: 150px;
+    background-color: whitesmoke;
+}
+
+.mainpage-background2 {
+    
+    padding-bottom: 150px;
+    background-color: white;
+}
+.mainpage-background3 {
+    box-shadow: 0px 0px 40px #000000;
+    padding-bottom: 100px;
+    background-color: #262626;
+}
+
+
+.uji-button {
+
+    color: royalblue;
+    background-color: white; 
+    border-color: #262626;
+    border: 2px solid whitesmoke;
+    padding: 14px 24px;
+    text-align: center;
+    text-decoration: none;
+    display:list-item;
+    font-size: 40px;
+}
+
+.main-background2 {
+
+    position: relative;
+    padding-top: 150px;
+    padding-bottom: 220px;
+    background-position-y: center;
+    background-repeat: repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-attachment: scroll;
+    background-image: url(../images/Travel.jpg);
+    background-color: whitesmoke
+}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+
+
+
+.Brothers {
+
+    padding-top: 50px;
+    padding-bottom: 30px;
+    text-align: center;
+
+
+
+}
+
+.gap {
+    padding-bottom: 20px;
+}
+
+.gap2 {
+    padding-bottom: 10px;
+}
+
+
+@media (max-width: 1600px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media(max-width:1024px) {
+  
+    .hamburger {
+       display: block;
+    }
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    } 
+
+    .nav-menu {
+        position:fixed;
+        left: -100%;
+        top:70px;
+        gap: 0;
+        flex-direction: column;
+        background-color: white;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+    }
+
+    .nav-item {
+        margin: 16px 0;
+    }
+
+   .nav-menu.is-active {
+        left: 0;
+    }
+  
+    
+}
